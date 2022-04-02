@@ -57,7 +57,7 @@ a.	Dropped 13 null values from the record
   1.	objective
   2.	CI
   3.	Incidence Rates
-➢	Created a database: “breastcancerdb” in Postgres, then loaded both data sets into the database.
+ 	Created a database: “breastcancerdb” in Postgres, then loaded both data sets into the database.
 ➢	Created a connection to the database with SQLAlchemy.
 ➢	Loaded both DataFrames to Postgres database: “breastcancerdb” in the table “Patient_record” and “Breastcancer_record”.
 ➢	Loaded the data and verified integrity with Pandas sql functions. No issues were found.

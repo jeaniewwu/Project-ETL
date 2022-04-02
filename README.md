@@ -1,18 +1,18 @@
 
 # Project 2: Extract Transform and Load
 
-Group Members:
+## Group Members:
 
 ·	Gustavo Gyotoku
 ·	Rasika Bhonsale
 ·	Jeanie Wu
 ·	Pooja Mahajan
 
-Topic:
+## Topic:
 
 Health Care - Breast Cancer in the United States
 
-Data sources:
+## Data sources:
 
 • https://www.kaggle.com/datasets/amandam1/breastcancerdataset?resource=download
 
@@ -20,22 +20,20 @@ Data sources:
 stateFIPS=00&areatype=county&cancer=055&race=00&sex=2&age=001&stage=999&year=0
 &type=incd&sortVariableName=rate&sortOrder=default&output=0#results
 
-Project Description:
+## Project Description:
 
 Extracted data from sources of breast cancer demographics in the United States. 
 Dataset contained different data types like integers, strings, and floats. 
 The “National Cancer Institute” provides a table lookup options such as area, area type, cancer, race & ethnicity, sex, age, stage and year for querying and web-scraping. 
 The second source comes from Kaggle, which contained research data from different patients with different demographics.
 
-Process Flow:
+## Process Flow:
 
+<img width="661" alt="Screen Shot 2022-04-02 at 12 20 06 PM" src="https://user-images.githubusercontent.com/95399587/161398049-02711f18-b053-47d4-9fb8-bd43aa174145.png">
 
-
- 		
 
  
-
-Process Description:
+## Process Description:
 ➢	The breast cancer dataset was extracted from two sources:
 -	Kaggle – (CSV file) 
 -	National Cancer Institute (through web scrapping)
@@ -69,4 +67,4 @@ a.	Dropped 13 null values from the record
 
 
 
-![image](https://user-images.githubusercontent.com/95399587/161397949-ddc2f0fd-cfa9-4b03-9616-7f6e8fbf5dd0.png)
+

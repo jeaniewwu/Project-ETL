@@ -39,24 +39,24 @@ The second source comes from Kaggle, which contained research data from differen
 -	National Cancer Institute (through web scrapping)
 ➢	Data was loaded into a pandas DataFrame and cleaned where necessary. Dropped unnecessary columns and removed null values from the DataFrame.
 -	Reading/Transforming the CSV file:
-▪	Removed the null values: 
-1.	Patient_ID
-2.	Age 
-3.	Tumour_Stage
-4.	ER status
-5.	Date_of_Surgery
-6.	Patient_Status
+  ▪	Removed the null values: 
+  1.	Patient_ID
+  2.	Age 
+  3.	Tumour_Stage
+  4.	ER status
+  5.	Date_of_Surgery
+  6.	Patient_Status
 a.	Dropped 13 null values from the record
 -	Web scrapping to DataFrame:
-▪	Renamed the columns:
-1.	“Met Healthy People Objective of ***?” to “objective”
-2.	“Age-Adjusted Incidence Rate cases per 100000(95% Confidence Interval)” to  “age-adjust rate”
-3.	“CI*Rank fork;(95% Confidence Interval)" to “CI”
-4.	“Recent 5-Year Trend‡ in Incidence Rates (95% Confidence Interval)" to  “Incidence Rates”
-▪	Dropped columns: 
-1.	objective
-2.	CI
-3.	Incidence Rates
+  ▪	Renamed the columns:
+  1.	“Met Healthy People Objective of ***?” to “objective”
+  2.	“Age-Adjusted Incidence Rate cases per 100000(95% Confidence Interval)” to  “age-adjust rate”
+  3.	“CI*Rank fork;(95% Confidence Interval)" to “CI”
+  4.	“Recent 5-Year Trend‡ in Incidence Rates (95% Confidence Interval)" to  “Incidence Rates”
+  ▪	Dropped columns: 
+  1.	objective
+  2.	CI
+  3.	Incidence Rates
 ➢	Created a database: “breastcancerdb” in Postgres, then loaded both data sets into the database.
 ➢	Created a connection to the database with SQLAlchemy.
 ➢	Loaded both DataFrames to Postgres database: “breastcancerdb” in the table “Patient_record” and “Breastcancer_record”.
